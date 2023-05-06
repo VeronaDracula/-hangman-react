@@ -1,0 +1,30 @@
+.word-write__letter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border-bottom: 3px solid #1E90FF;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.word-write__letter:last-child {
+    margin-right: 0;
+}
+
+.word-write__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 42px;
+    color: #006400;
+    margin: 0 0 10px 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.word-write__text_active {
+    opacity: 1;
+    visibility: visible;
+}

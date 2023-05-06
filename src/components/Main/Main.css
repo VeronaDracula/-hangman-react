@@ -1,0 +1,24 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    height: 700px;
+    width: 100%;
+    padding: 25px 25px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #87CEFA, #C5DDE8);
+}
+
+/* выбранная тема */
+.title-topic {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 37px;
+    margin: 0;
+    color: 	#4B0082;
+}
+
+.title-topic__text {
+    margin-left: 5px;
+}

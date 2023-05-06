@@ -1,0 +1,29 @@
+.letters-overlay__btns {
+    display: flex;
+    align-items: center;
+}
+
+.letters-overlay__btn {
+    width: 130px;
+    height: 34px;
+    background: #1E90FF;
+    border-radius: 6px;
+    border: none;
+    font-weight: 00;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 0;
+    margin-right: 20px;
+
+    color: white;
+    font-family: "Inter", sans-serif!important;
+}
+
+.letters-overlay__btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.letters-overlay__btn:last-child {
+    margin-right: 0;
+}

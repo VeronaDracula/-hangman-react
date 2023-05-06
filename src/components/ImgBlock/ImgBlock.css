@@ -1,0 +1,33 @@
+.hangman-img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    background: transparent center no-repeat url(../../images/gallows-1.png);
+}
+
+.image2 {
+    background: transparent center no-repeat url(../../images/gallows-2.png);
+}
+
+.image3 {
+    background: transparent center no-repeat url(../../images/gallows-3.png);
+}
+
+.image4 {
+    background: transparent center no-repeat url(../../images/gallows-4.png);
+}
+
+.image5 {
+    background: transparent center no-repeat url(../../images/gallows-5.png);
+}
+
+.image6 {
+    background: transparent center no-repeat url(../../images/gallows-6.png);
+}
+
+.image7 {
+    background: transparent center no-repeat url(../../images/gallows-7.png);
+}

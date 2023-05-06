@@ -1,0 +1,53 @@
+.letters-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    font-family: "Inter", sans-serif!important;
+    background: linear-gradient(45deg, rgba(135, 206, 250, 0.9), rgba(169, 215, 241, 0.9));
+    height: 208px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.letters-overlay_inactive {
+    display: none;
+}
+
+.letters-overlay__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 62px;
+    margin: 0 0 20px 0;
+    color: #191970;
+}
+
+
+
+
+
+
+/* выбираем тему */
+.topic {
+    font-family: "Inter", sans-serif!important;
+}
+
+.topic__title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 47px;
+    margin: 0 0 35px 0;
+    color: 	#191970;
+    text-align: center;
+}
+
+.topic__list {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
